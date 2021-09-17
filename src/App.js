@@ -1,10 +1,7 @@
+import LandingPage from "./LandingPage/LandingPage";
 
 function App() {
-  return (
-    <div className="App">
-
-    </div>
-  );
+  return <LandingPage />;
 }
 
 export default App;

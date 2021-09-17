@@ -1,0 +1,31 @@
+:root {
+  --element-spacing: 1.5rem;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--element-spacing);
+}
+
+.left > * {
+  margin-right: var(--element-spacing);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.right > * {
+  margin-left: var(--element-spacing);
+}
+
+/* .button {
+  color: white;
+  border: 2px solid #ffff;
+  background: transparent;
+  box-shadow: none;
+  padding: 7px 24px 8px;
+} */
