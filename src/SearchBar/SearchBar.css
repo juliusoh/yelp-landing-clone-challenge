@@ -5,5 +5,9 @@
 .button.search-button {
   background: #D32323;
   border: none;
-  
+
+}
+
+.search-bar {
+  margin-bottom: 1rem;
 }

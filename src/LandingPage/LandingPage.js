@@ -7,11 +7,13 @@ import SearchSuggestions from "./SearchSuggestions/SearchSuggestions";
 
 const LandingPage = () => {
   return (
-    <div>
-      <TopNavBar />
-      <img src={logo} className="logo" alt="logo" />
-      <SearchBar />
-      <SearchSuggestions />
+    <div className="landing">
+      <div className="search-area">
+        <TopNavBar />
+        <img src={logo} className="logo" alt="logo" />
+        <SearchBar />
+        <SearchSuggestions />
+      </div>
     </div>
   );
 };

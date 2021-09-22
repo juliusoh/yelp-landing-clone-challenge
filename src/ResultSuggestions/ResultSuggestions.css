@@ -1,0 +1,26 @@
+.results-suggestions {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 10px;
+}
+
+
+
+.suggestion {
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 4px;
+  margin-right: 2.5rem;
+
+}
+
+.suggestions > li > a {
+  padding: 16px 16px 20px;
+  height: 18px;
+  line-height: 18px;
+  border-bottom: 4px solid transparent;
+  text-decoration: none;
+  color: rgba(43,39,60,1);
+}
+

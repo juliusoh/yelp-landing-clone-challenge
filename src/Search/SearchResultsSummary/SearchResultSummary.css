@@ -1,0 +1,226 @@
+.result-inline {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+  color: rgba(117, 114, 128, 1);
+}
+
+.icon {
+  margin-left: 5px;
+  width: 16pt;
+  height: 16pt;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: rgba(43, 39, 60, 1)
+}
+
+.filters {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-style: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  color: rgba(43, 39, 60, 1)
+}
+
+.left-button {
+  border-radius: 2px;
+}
+
+.filters-section {
+  border-color: #eeeeef;
+  border-bottom: 1px solid #eeeeef;
+  padding-bottom: 16px ;
+  padding-top: 16px ;
+}
+
+.suggested {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  color: rgba(43, 39, 60, 1);
+  padding-bottom: 8px ;
+}
+
+.field > input {
+  margin: .2em 8px 0 1px;
+  width: 20px;
+  background-color: rgba(0,131,143,1);
+
+}
+
+.field > input > label {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(43, 39, 60, 1);
+  line-height: 20px;
+}
+
+label > input {
+  margin: .2em 8px 0 1px;
+  padding-top: 4px;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: 14px;
+  color:rgba(43, 39, 60, 1)
+
+}
+
+.suggestions_ {
+  display: flex;
+  flex-direction: column;
+  border-color: #eeeeef;
+  border-bottom: 1px solid #eeeeef;
+  padding-bottom: 16px ;
+  padding-top: 16px ;
+}
+
+.categories {
+  border-color: #eeeeef;
+  border-bottom: 1px solid #eeeeef;
+  padding-bottom: 16px ;
+  padding-top: 16px ;
+}
+
+.category {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  color: rgba(43, 39, 60, 1);
+  padding-bottom: 8px ;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.field {
+  margin-bottom: 0rem !important;
+}
+
+.category_button {
+  display: inline-block;
+  border: 1px solid rgba(187, 186, 192, 1);
+  border-radius: 16px;
+  background: white;
+  padding: 6px 12px;
+  outline: none;
+  color: rgba(43, 39, 60, 1);
+  cursor: pointer;
+  margin: 4px;
+}
+
+.category_button:hover {
+  background-color: grey;
+  transition: grey 0.4s;
+}
+.category_button_text {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-style: 12px;
+  line-height: 18px;
+  font-weight: 600;
+
+}
+
+.buttons-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  color: rgba(43, 39, 60, 1);
+  padding-bottom: 8px ;
+}
+
+.see-all {
+  padding-top: 4px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.see-all-link {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(0,131,143,1);
+}
+
+.delivery_takeout {
+  margin-bottom: 24px;
+  margin-top: 40px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  border-color: #eeeeef;
+  border-bottom: 1px solid #eeeeef;
+  padding-bottom: 16px ;
+  padding-top: 16px ;
+}
+
+.distance {
+  display: flex;
+  flex-direction: column;
+  border-color: #eeeeef;
+  border-bottom: 1px solid #eeeeef;
+  padding-bottom: 16px ;
+  padding-top: 16px ;
+}
+.distance_heading {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  color: rgba(43, 39, 60, 1);
+  padding-bottom: 8px ;
+}
+
+.left-nav {
+  position: sticky;
+  align-self: flex-end;
+  z-index: 999;
+  width: 240px;
+  margin-right: 40px;
+}
+
+.delivery {
+  display: flex;
+  background-color: white !important;
+  font-size: 16px;
+  cursor: pointer;
+  justify-content: center;
+  margin: 0;
+  box-shadow: none;
+  border-radius: 4px;
+}
+
+.delivery_takeout {
+  display: flex;
+
+}
+
+.result-page-h3 {
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-color: #eeeeef;
+}
+
+.result-page-h3 > h3 {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: rgba(43, 39, 60, 1);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+}

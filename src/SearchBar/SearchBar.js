@@ -3,7 +3,7 @@ import "./SearchBar.css";
 
 const SearchBar = () => {
   return (
-    <div>
+    <div className="search-bar">
       <div className="field has-addons">
         <p className="control">
           <button className="button is-static is-medium">Find</button>
